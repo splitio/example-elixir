@@ -1,0 +1,10 @@
+sdk:
+  apikey: "<SPLIT_SERVER_SIDE_SDK_KEY>"
+
+link:
+  type: "unix-stream"
+  address: "./splitd.sock"
+  serialization: "msgpack"
+
+logging:
+  level: info
