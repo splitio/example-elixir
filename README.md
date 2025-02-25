@@ -44,4 +44,4 @@ mix run --no-halt
 
 ### Validate
 
-- Open your browser and navigate to `http://localhost:80/feature-flag-names` to see the list of feature flags available in your Split environment.
+- Open your browser and navigate to `http://localhost:8080/feature-flag-names` to see the list of feature flags available in your Split environment.

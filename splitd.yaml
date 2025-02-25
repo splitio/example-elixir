@@ -1,5 +1,10 @@
 sdk:
   apikey: "<SPLIT_SERVER_SIDE_SDK_KEY>"
+  impressions:
+    refreshRateSeconds: 5
+    mode: "debug"
+  events:
+    refreshRateSeconds: 5
 
 link:
   type: "unix-stream"

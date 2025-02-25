@@ -8,8 +8,8 @@ defmodule ExampleElixir do
   @impl true
   def start(_type, _args) do
     children = [
-      {Split, socket_path: "./splitd.sock"},
-      {Plug.Cowboy, scheme: :http, plug: ExampleElixir.Router, options: [port: 80]}
+      {Split, address: "./splitd.sock"},
+      {Plug.Cowboy, scheme: :http, plug: ExampleElixir.Router, options: [port: 8080]}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

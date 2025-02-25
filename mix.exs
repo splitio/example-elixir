@@ -24,7 +24,7 @@ defmodule ExampleElixir.MixProject do
     [
       {:jason, "~> 1.3"},
       {:plug_cowboy, "~> 2.5"},
-      {:split, "~> 0.2.0", hex: :split_thin_sdk}
+      {:split, "~> 1.0.0", hex: :split_thin_sdk}
     ]
   end
 end
